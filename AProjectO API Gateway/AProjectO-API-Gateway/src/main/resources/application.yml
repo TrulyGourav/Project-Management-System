@@ -1,0 +1,23 @@
+server:
+  port: 8080
+
+eureka:
+  instance:
+    hostname: localhost
+
+
+spring:
+  application:
+    name: AProjectO api-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: user-service
+          uri: lb://user-service
+          predicates:
+            - Path=/user/**
+        - id: project-service
+          uri: lb://project-service
+          predicates:
+            - Path=/project/**
+
