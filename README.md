@@ -1,13 +1,14 @@
 # AProjecto: A Project Management System
-This repository contains code for a project named as 'AProjecto' which is a project management system. The project consists of two microservices: 
+This repository contains code for a project named as 'AProjecto' which is a project management system.
+
+NOTE: This project was a part of internship. The complete project is an asset of the organization. Therefore, I only have rights to make backend available publicly (The code I contributed to).
+
+The project consists of two microservices: 
 
       User microservice : To handle all the API related to user (Admin, Project Manager, User)
       Project microservice : To handle all the API related to project operations
       
 There is also a server and an API Gateway service. The Gateway is mainly used to route the APIs to particular microservice without reflecting the port of the         services.
-
-NOTE: This project was a part of internship. The complete project is an asset of the organization. Therefore, I only have rights to make backend available publicly (The code I contributed to).
-
 
 
 # Technology Stack used for Backend
