@@ -3,6 +3,8 @@ This repository contains code for a project named as 'AProjecto' which is a proj
 
       User microservice : To handle all the API related to user (Admin, Project Manager, User)
       Project microservice : To handle all the API related to project operations
+      
+      There is also a server and an API Gateway service. The Gateway is mainly used to route the APIs to particular microservice without reflecting the port of the         services
 
 NOTE: This project was a part of internship. The complete project is an asset of the organization. Therefore, I only have rights to make backend available publicly (The code I contributed to).
 
@@ -31,4 +33,6 @@ NOTE: This project was a part of internship. The complete project is an asset of
 3. create task/Sub_task
 4. Add user, delete user
 5. Default roles + Custom role (on project level)
-6. User Performance
+6. Role wise permissions
+7. Adding comments to facilitate communication
+8. User Performance
